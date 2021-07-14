@@ -1,0 +1,1 @@
+# soc_mini_project
