@@ -11,11 +11,16 @@ The description consists of following -
   - Testing and Results
 
 ## Dataset
-The name of the data set is fer2013 which is an open-source data set that was made publicly available for a Kaggle competition. It contains 48 X 48-pixel colored images of the face. There are seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral) present in the data. 
+The name of the data set is FER-2013 which is an open-source data set that was made publicly available for a Kaggle competition. It contains 48 X 48-pixel colored images of the face. There are seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral) present in the data. 
 
 ## Custom Model Architecture
+Consists of 5 stages of convolution max-pooling layers followed by 3 layers of fully connected layers and a softmax output layer. The convolution layers use itna filters of size itna respectively. The max-pooling layers use kernels of size itna and stride itna. ReLU was utilized as the activation function. To improve the performance batchnorm at the end of every layer was added and dropouts of itnas after yeye layer respectively. The model was trained with itna epochs with ye loss and ye optimizer. Learning rate was fixed at 
 
 ## Transfer Learning Model
+Used ResNet50 model and added itna dense layers 
+itna epochs
+itna learning rate and this optimizer
 
 ## Testing and Results
-  
+Custom Mode Results 
+Transfer Learning Results
