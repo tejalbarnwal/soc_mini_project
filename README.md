@@ -8,7 +8,7 @@ The description consists of following -
   - Dataset
   - Custom Model Architecture
   - Tranfer Learning Model
-  - Results
+  - Testing and Results
 
 ## Dataset
 The name of the data set is fer2013 which is an open-source data set that was made publicly available for a Kaggle competition. It contains 48 X 48-pixel colored images of the face. There are seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral) present in the data. 
@@ -17,5 +17,5 @@ The name of the data set is fer2013 which is an open-source data set that was ma
 
 ## Transfer Learning Model
 
-## Results
+## Testing and Results
   
