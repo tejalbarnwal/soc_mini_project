@@ -30,4 +30,4 @@ Examples of the those cases are:
 - This is a case of fear but the model classified it as surprise
 <img src="https://github.com/tejalbarnwal/soc_mini_project/blob/main/test3_result.png" width="300" height="300"/>
 - This is a case of sad but the model classified it as surprised
-![](https://github.com/tejalbarnwal/soc_mini_project/blob/main/test4_result.png)
+<img src="https://github.com/tejalbarnwal/soc_mini_project/blob/main/test4_result.png" width="300" height="300"/>
