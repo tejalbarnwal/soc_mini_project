@@ -17,5 +17,6 @@ Consists of 5 stages of convolution max-pooling layers followed by 3 layers of f
 
 
 ## Testing and Results
-At the end of 40 epochs we have accuracy versus epochs graph as shown. So on test dataset we had an accuracy of 65.3% and training accuracy of 74.7%  
+At the end of 40 epochs we have accuracy versus epochs graph as shown. So on test dataset we had a test accuracy of 65.3% and training accuracy of 74.7%  
 ![](https://github.com/tejalbarnwal/soc_mini_project/blob/main/acc.png)
+The FER2013[1], was a challenge proposed on Kaggle which was won by the team reaching the test accuracy of 75.2%.Human accuracy on the dataset is 65.5%
