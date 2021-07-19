@@ -22,3 +22,12 @@ At the end of 40 epochs we have accuracy versus epochs graph as shown. So on tes
 
 The FER2013[1], was a challenge proposed on Kaggle which was won by the team reaching the test accuracy of 75.2%.Human accuracy on the dataset is 65.5%.
 So this proves that my model is decent enough!
+
+[Link to video with live webcam feed](https://github.com/tejalbarnwal/soc_mini_project/blob/main/model1.webm)
+
+There were some instances where the model didnt perform well
+Examples of the those cases are:
+- This is a case of fear but the model classified it as surprise
+![](https://github.com/tejalbarnwal/soc_mini_project/blob/main/test3_result.png)
+- This is a case of sad but the model classified it as surprised
+![](https://github.com/tejalbarnwal/soc_mini_project/blob/main/test4_result.png)
