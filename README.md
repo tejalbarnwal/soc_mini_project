@@ -2,7 +2,7 @@
 One of the interesting applications of CV is Emotion Detection through facial expressions. CV can recognize and tell you what your emotion is by just looking at your facial expressions. It can detect whether you are angry, happy, sad, etc.
 
 ## Summary
-This consists of computer vision model that we will build using Keras and Resnet50 – a variant of Convolutional Neural Network. We will use this model to check the emotions in real-time using OpenCV and webcam. The model was build and trained on google colab and used on PyCharm
+This consists of computer vision model that i build using Keras with a custom Convolutional Neural Network. We will use this model to check the emotions in real-time using OpenCV and webcam. The model was build and trained on google colab and used on PyCharm
 
 The description consists of following -
   - Dataset
@@ -17,5 +17,5 @@ Consists of 5 stages of convolution max-pooling layers followed by 3 layers of f
 
 
 ## Testing and Results
-Custom Mode Results 
-Learning Results
+Custom Model Results 
+
