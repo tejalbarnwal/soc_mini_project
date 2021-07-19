@@ -5,9 +5,9 @@ One of the interesting applications of CV is Emotion Detection through facial ex
 This consists of computer vision model that i build using Keras with a custom Convolutional Neural Network. We will use this model to check the emotions in real-time using OpenCV and webcam. The model was build and trained on google colab and used on PyCharm
 
 The description consists of following -
-  - Dataset
-  - Custom Model Architecture
-  - Testing and Results
+  - [Dataset](https://github.com/tejalbarnwal/soc_mini_project/blob/main/README.md#dataset)
+  - [Custom Model Architecture](https://github.com/tejalbarnwal/soc_mini_project/blob/main/README.md#custom-model-architecture)
+  - [Testing and Results](https://github.com/tejalbarnwal/soc_mini_project/blob/main/README.md#testing-and-results)
 
 ## Dataset
 The name of the data set is [FER-2013](https://www.kaggle.com/msambare/fer2013) which is an open-source data set that was made publicly available for a Kaggle competition. It contains 48 X 48-pixel colored images of the face. There are seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral) present in the data. 
