@@ -13,9 +13,8 @@ The description consists of following -
 The name of the data set is [FER-2013](https://www.kaggle.com/msambare/fer2013) which is an open-source data set that was made publicly available for a Kaggle competition. It contains 48 X 48-pixel colored images of the face. There are seven categories (0=Angry, 1=Disgust, 2=Fear, 3=Happy, 4=Sad, 5=Surprise, 6=Neutral) present in the data. 
 
 ## Custom Model Architecture
-Consists of 5 stages of convolution max-pooling layers followed by 3 layers of fully connected layers and a softmax output layer. The convolution layers use itna filters of size itna respectively. The max-pooling layers use kernels of size itna and stride itna. ReLU was utilized as the activation function. To improve the performance batchnorm at the end of every layer was added and dropouts of itnas after yeye layer respectively. The model was trained with itna epochs with ye loss and ye optimizer. Learning rate was fixed at 
+Consists of 5 stages of convolution max-pooling layers followed by 3 layers of fully connected layers and a softmax output layer. The convolution layers use 64,128,256,512 filters of size (3,3) respectively. The max-pooling layers use kernels of size (2,2) and stride 2. ReLU was utilized as the activation function. To improve the performance batchnorm at the end of every layer was added and dropouts of 0.3 and 0.5. The model was trained with 40 epochs with categorical crossentropy loss and Adam optimizer. Learning rate was fixed at its default value of 0.001
 
 
-## Testing and Results
-Custom Model Results 
-
+## Testing and ResultsAt the end of 40 epochs we have accuracy versus epochs graph as shown. So on test dataset we had an accuracy of 65.3% and training accuracy of 74.7%  
+![](https://github.com/tejalbarnwal/soc_mini_project/blob/main/acc.png)
