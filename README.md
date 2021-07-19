@@ -7,7 +7,6 @@ This consists of computer vision model that we will build using Keras and Resnet
 The description consists of following -
   - Dataset
   - Custom Model Architecture
-  - Tranfer Learning Model
   - Testing and Results
 
 ## Dataset
@@ -16,10 +15,7 @@ The name of the data set is FER-2013 which is an open-source data set that was m
 ## Custom Model Architecture
 Consists of 5 stages of convolution max-pooling layers followed by 3 layers of fully connected layers and a softmax output layer. The convolution layers use itna filters of size itna respectively. The max-pooling layers use kernels of size itna and stride itna. ReLU was utilized as the activation function. To improve the performance batchnorm at the end of every layer was added and dropouts of itnas after yeye layer respectively. The model was trained with itna epochs with ye loss and ye optimizer. Learning rate was fixed at 
 
-## Transfer Learning Model
-Used VGG16Face model and added itna dense layers 
-itna epochs
 
 ## Testing and Results
 Custom Mode Results 
-Transfer Learning Results
+Learning Results
